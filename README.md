@@ -149,6 +149,19 @@ LP-run perp engines with 10 MB state budget, fully self-contained matching and s
 
 **Note:** PDA tests require Solana syscalls and are marked `#[cfg(target_os = "solana")]`. They will be tested in integration tests with Surfpool.
 
+## 📘 Documentation
+
+### Deployment Guide
+For comprehensive deployment instructions, see **[RUST_DEPLOYMENT_GUIDE.md](./RUST_DEPLOYMENT_GUIDE.md)** which covers:
+- Development environment setup
+- Building and testing strategies
+- Front-end integration with TypeScript SDK
+- Local, staging (devnet), and production (mainnet) deployment
+- Monitoring, operations, and security considerations
+- Complete 7-phase production roadmap
+
+Quick reference: [DEPLOYMENT_GUIDE_SUMMARY.md](./DEPLOYMENT_GUIDE_SUMMARY.md)
+
 ## Building and Testing
 
 ### Build
