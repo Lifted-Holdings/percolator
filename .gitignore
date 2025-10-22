@@ -1,0 +1,35 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo lock file (for libraries)
+# Cargo.lock is tracked for binaries, but can be ignored for libraries
+# Keeping it for reproducible builds
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Solana artifacts
+*.so
+test-ledger/
+
+# Local environment
+.env
+.env.local
+
+# Surfpool artifacts
+.surfpool/cache/
+.surfpool/logs/
+
+# Test artifacts
+*.profraw
+*.profdata
